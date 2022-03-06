@@ -63,7 +63,7 @@ func main() {
 			fmt.Println("Nastapila zmiana ", globalElement)
 			fmt.Println("O godzinie: ", time.Now())
 			discord.Say(fmt.Sprintf("Nastapila zmiana planu w dniu: %s", time.Now().Format("Monday, 02-Jan-06 15:04:05 MST")))
-			discord.Say("http://zsz1.edu.pl/plan/plany/o26.html")
+			discord.Say("@everyone http://zsz1.edu.pl/plan/plany/o26.html")
 
 		}
 		time.Sleep(1 * time.Second)
