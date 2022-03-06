@@ -13,7 +13,7 @@ import (
 var globalElement string = ""
 
 func main() {
-	discord.WebhookURL = "https://discord.com/api/webhooks/949441185364209754/u_iKxGHfRH90Vvqd8wt0J--i7FPBoqnezaHRf3T9Akb0hM05DupD7UKeB5I__ElCRE5-"
+	discord.WebhookURL = "https://discord.com/api/webhooks/950070131768311818/jQbnfY9pxvHH6EYDDce0u9bKA7BYuOWXpDDmHNaYCZp8hWk1aBFHbifxJuaOfSpJr1aQ"
 	// Request the HTML page.
 	res, err := http.Get("http://zsz1.edu.pl/plan/plany/o26.html")
 	if err != nil {
